@@ -12,7 +12,7 @@ app.use(cors({
 }))
 
 let todos = [
-    "Cricket", "Dance", "Sing", "Coding"
+    "Cricket", "Dance", "Sing", "Aayush"
 ]
 
 app.get('/', (req, res, next) => {
