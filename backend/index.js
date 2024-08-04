@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 4444;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: "4kb" }));
 app.use(cors({
-    origin: ["https://testdeploy-qg5t.vercel.app/"],
+    origin: ["https://testdeploy-qg5t.vercel.app"],
     credentials: true
 }))
 
